@@ -36,11 +36,19 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.nav-section-list-title:hover {
+  color: #404bbf;
+}
 
 .contacts-list-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.contacts-list-text:hover,
+.contacts-list-text:focus {
+  color: #404bbf;
 }
 
 .main-section {
@@ -64,6 +72,10 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+}
+
+.main-section-button:hover {
+  background-color: #404bbf;
 }
 
 .descr-section-list-title {
