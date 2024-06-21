@@ -10,6 +10,10 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style: none;
+}
+
 .logo-studio {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -44,14 +48,14 @@ a {
 .contacts {
   font-style: normal;
 }
-.contacts-list-text {
+.contacts-list-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-.contacts-list-text:hover,
-.contacts-list-text:focus {
+.contacts-list-link,
+.contacts-list-link:focus {
   color: #404bbf;
 }
 
