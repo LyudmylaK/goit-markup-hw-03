@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -19,8 +25,7 @@ p {
   margin: 0;
 }
 
-ul,
-ol {
+ul {
   margin: 0;
   padding-left: 0;
 }
@@ -191,8 +196,34 @@ footer {
 
 .container {
   max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.page-header {
+  padding: 24px 0;
+  border-bottom: 1px solid #e7e9fc;
+  background-color: #ffffff;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-nav {
+  display: flex;
+}
+
+.nav-list {
+  margin-left: 76px;
+  gap: 40px;
+}
+
+.flex {
+  display: flex;
+}
+
+.contacts-list {
+  gap: 40px;
 }
