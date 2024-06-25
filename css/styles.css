@@ -46,7 +46,7 @@ ul {
 .page-header .container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  padding: 24px 0;
 }
 
 .page-header {
@@ -75,7 +75,7 @@ ul {
 
 .header-nav {
   display: flex;
-  padding: 24px 0;
+  align-items: center;
 }
 
 .nav-list {
@@ -323,11 +323,6 @@ ul {
 
 .footer-logo .logo-part {
   color: #f4f4fd;
-}
-
-.footer-info .container {
-  display: flex;
-  flex-direction: column;
 }
 
 .footer-logo {
