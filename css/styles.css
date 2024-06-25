@@ -46,7 +46,6 @@ ul {
 .page-header .container {
   display: flex;
   justify-content: space-between;
-  padding: 24px 0;
 }
 
 .page-header {
@@ -69,7 +68,7 @@ ul {
 }
 
 .header-logo {
-  display: flex;
+  display: inline-block;
   margin-right: 76px;
 }
 
@@ -81,6 +80,10 @@ ul {
 .nav-list {
   gap: 40px;
   display: flex;
+}
+
+.nav-item {
+  padding: 24px 0;
 }
 
 .nav-link {
@@ -102,6 +105,10 @@ ul {
 .contacts-list {
   display: flex;
   gap: 40px;
+}
+
+.contacts-item {
+  padding: 24px 0;
 }
 
 .contacts-link {
