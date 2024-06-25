@@ -10,6 +10,13 @@ body {
   background-color: #ffffff;
   font-weight: 400;
   font-size: 16px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
 }
 
 h1,
@@ -40,10 +47,6 @@ a {
 
 ul {
   list-style-type: none;
-}
-
-footer {
-  background: #2e2f42;
 }
 
 .logo {
@@ -91,6 +94,7 @@ footer {
 
 .hero {
   background: #2e2f42;
+  padding: 188px 0;
 }
 
 .hero-title {
@@ -100,6 +104,8 @@ footer {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  padding-bottom: 48px;
+  max-width: 496px;
 }
 
 .hero-button {
@@ -111,11 +117,26 @@ footer {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  padding: 16px 32px;
+  border-radius: 4px;
 }
 
 .hero-button:hover,
 .hero-button:focus {
   background-color: #404bbf;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .benefits-subtitle {
@@ -124,6 +145,7 @@ footer {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-bottom: 8px;
 }
 
 .benefits-text {
@@ -137,6 +159,7 @@ footer {
 
 .team-item {
   background-color: #fff;
+  border-radius: 0 0 4px 4px;
 }
 
 .team-title {
@@ -147,6 +170,7 @@ footer {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  padding-bottom: 72px;
 }
 
 .team-subtitle {
@@ -156,12 +180,15 @@ footer {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  padding-top: 32px;
+  padding-bottom: 8px;
 }
 
 .team-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+  padding-bottom: 32px;
 }
 
 .portfolio-title {
@@ -172,6 +199,7 @@ footer {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  padding-bottom: 72px;
 }
 
 .portfolio-subtitle {
@@ -180,18 +208,24 @@ footer {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 32px;
+  padding-bottom: 8px;
+  padding-left: 16px;
 }
 
 .portfolio-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  padding-bottom: 32px;
+  padding-left: 16px;
 }
 
 .footer-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
 
 .container {
@@ -216,7 +250,7 @@ footer {
 }
 
 .nav-list {
-  margin-left: 76px;
+  padding-left: 76px;
   gap: 40px;
 }
 
@@ -226,4 +260,77 @@ footer {
 
 .contacts-list {
   gap: 40px;
+}
+
+.dir {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.benefits {
+  padding: 120px 0;
+}
+
+.visually-hidden {
+  gap: 24px;
+}
+
+.benefits-list {
+  gap: 24px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team-list {
+  gap: 24px;
+}
+
+.team-section {
+  padding: 120px 0;
+}
+
+.portfolio-list {
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
+}
+
+.portfolio-section {
+  padding: 120px;
+}
+
+.blok {
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  display: block;
+}
+
+.benefits-item {
+  width: calc((100% - 3 * 24px) / 4);
+}
+
+.border {
+  border-left: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+}
+
+.footer-info {
+  padding: 100px 0;
+  background: #2e2f42;
+}
+
+.footer-info .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  padding-bottom: 16px;
 }
