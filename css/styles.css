@@ -68,7 +68,6 @@ ul {
 }
 
 .header-logo {
-  display: inline-block;
   margin-right: 76px;
 }
 
@@ -80,9 +79,6 @@ ul {
 .nav-list {
   gap: 40px;
   display: flex;
-}
-
-.nav-item {
   padding: 24px 0;
 }
 
@@ -105,9 +101,6 @@ ul {
 .contacts-list {
   display: flex;
   gap: 40px;
-}
-
-.contacts-item {
   padding: 24px 0;
 }
 
